@@ -1,0 +1,28 @@
+2024-08-05 19:16:32,796 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getMe "HTTP/1.1 200 OK"
+2024-08-05 19:16:32,948 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/deleteWebhook "HTTP/1.1 200 OK"
+2024-08-05 19:16:32,950 - apscheduler.scheduler - INFO - Scheduler started
+2024-08-05 19:16:32,951 - telegram.ext.Application - INFO - Application started
+2024-08-05 19:16:43,247 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:16:44,873 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:16:44,874 - telegram.ext.Application - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "C:\Users\anksi\IdeaProjects\ex2\untitled2\venv\Lib\site-packages\telegram\ext\_application.py", line 1335, in process_update
+    await coroutine
+  File "C:\Users\anksi\IdeaProjects\ex2\untitled2\venv\Lib\site-packages\telegram\ext\_handlers\basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\anksi\IdeaProjects\Ex2\untitled2\bot.py", line 134, in start
+    logger.info(f"User {user_id} started the bot")
+    ^^^^^^
+NameError: name 'logger' is not defined
+2024-08-05 19:16:54,954 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:17:05,035 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:17:15,128 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:17:25,217 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:17:35,308 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:17:45,390 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:17:55,474 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:18:02,186 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot7284445294:AAE6JD48RSVRFWVTRaQ_79FeIHui93SiGbA/getUpdates "HTTP/1.1 200 OK"
+2024-08-05 19:18:02,188 - telegram.ext.Application - INFO - Application is stopping. This might take a moment.
+2024-08-05 19:18:02,191 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2024-08-05 19:18:02,191 - telegram.ext.Application - INFO - Application.stop() complete
